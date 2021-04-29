@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[17]:
-
-
 """
 Análise de Dados com Python
 Desafio:
@@ -39,28 +33,3 @@ for coluna in df:
         fig = px.histogram(df, x=coluna, color="Churn")
         fig.show()
         display(df.pivot_table(index="Churn", columns=coluna, aggfunc="count")["IDCliente"])
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
